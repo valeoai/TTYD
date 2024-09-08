@@ -74,8 +74,8 @@ We start from the following 2 source models:
 
 | Source datatset | Link | 
 | -----           | ------- |
-|     NuScenes    | TBD|
-| SyntheticLiDAR  | TBD |
+|     NuScenes    | [Link](https://drive.google.com/drive/folders/1NpjvWzo7agNtLFu6HODRhIElTP3a04n7?usp=drive_link)|
+| SyntheticLiDAR  | [Link](https://drive.google.com/drive/folders/1NrFpTUYmlmBBHqjyAolvp9FAoBSdvdoa?usp=drive_link) |
 
 ## TTYD Core models 
 
