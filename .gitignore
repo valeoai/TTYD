@@ -1,0 +1,9 @@
+## Folders
+data/
+ckpts_bn/
+runs_eccv/
+source_models/
+
+## File types
+*.pyc
+*.pth

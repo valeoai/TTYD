@@ -1,0 +1,208 @@
+# Single is the mapping used for source-only training
+single:
+  0: 0
+  1: 0
+  2: 7
+  3: 7
+  4: 7
+  5: 0
+  6: 7
+  7: 0
+  8: 0
+  9: 1
+  10: 0
+  11: 0
+  12: 8
+  13: 0
+  14: 2
+  15: 3
+  16: 3
+  17: 4
+  18: 5
+  19: 0
+  20: 0
+  21: 6
+  22: 9 
+  23: 10
+  24: 11
+  25: 12
+  26: 13
+  27: 14
+  28: 15
+  29: 0 
+  30: 16
+  31: 0
+
+#Mapping to SemanticKITTI like in Complete and Label
+semantic_kitti_cl:
+  0: 0
+  1: 0
+  2: 6
+  3: 6
+  4: 6
+  ###Changes 
+  5: 6 #Prev 0
+  6: 6
+  7: 0
+  8: 0
+  9: 0
+  10: 0
+  11: 0
+  12: 0
+  13: 0
+  14: 2
+  15: 5
+  16: 5
+  17: 1
+  18: 5
+  19: 5 #Prev 0
+  20: 5 #Prev 0
+  21: 3
+  22: 5
+  23: 4
+  24: 7
+  25: 0
+  26: 8
+  27: 9
+  28: 0
+  29: 0
+  30: 10
+  31: 0
+
+semantic_poss:
+  0: 0 #noise-->unlabeled
+  1: 0 #animal-->unlabeled
+  2: 1 #human.pedestrian.adult-->person
+  3: 1 #human.pedestrian.child-->person
+  4: 1 #human.pedestrian.construction_worker-->person
+  5: 0 #human.pedestrian.personal_mobility-->unlabeled
+  6: 1 #human.pedestrian.police_officer-->person
+  7: 0 #human.pedestrian.stroller-->unlabeled
+  8: 0 #human.pedestrian.wheelchair-->unlabeled
+  9: 6 #movable_object.barrier-->manmade
+  10: 0 #movable_object.debris-->unlabeled
+  11: 0 #movable_object.pushable_pullable-->unlabeled
+  12: 6 #movable_object.trafficcone-->manmade
+  13: 0 #static_object.bicycle_rack-->unlabeled
+  14: 2 #vehicle.bicycle-->bike
+  15: 3 #vehicle.bus.bendy-->car
+  16: 3 #vehicle.bus.rigid-->car
+  17: 3 #vehicle.car-->car
+  18: 3 #vehicle.construction-->car
+  19: 0 #vehicle.emergency.ambulance-->unlabeled
+  20: 0 #vehicle.emergency.police-->unlabeled
+  21: 2 #vehicle.motorcycle-->bike
+  22: 3 #vehicle.trailer-->car
+  23: 3 #vehicle.truck-->car
+  24: 4 #flat.driveable_surface-->ground
+  25: 4 #flat.other-->ground
+  26: 4 #flat.sidewalk-->ground
+  27: 4 #flat.terrain-->ground
+  28: 6 #static.manmade-->manmade
+  29: 0 #static.other-->unlabeled
+  30: 5 #static.vegetation-->vegetation
+  31: 0
+
+pandaset:
+  0: 0 #noise --> Noise
+  1: 0 #animal --> Noise
+  2: 2 #human.pedestrian.adult --> pedestrian
+  3: 2 #human.pedestrian.child --> pedestrian
+  4: 2 #human.pedestrian.construction_worker --> pedestrian
+  5: 0 #human.pedestrian.personal_mobility --> Noise
+  6: 2 #human.pedestrian.police_officer --> pedestrian
+  7: 0 #human.pedestrian.stroller --> Noise
+  8: 0 #human.pedestrian.wheelchair --> Noise
+  9: 6 #movable_object.barrier --> manmade
+  10: 0 #movable_object.debris --> Noise
+  11: 0 #movable_object.pushable_pullable --> Noise
+  12: 6 #movable_object.trafficcone --> manmade
+  13: 0 #static_object.bicycle_rack --> Noise
+  14: 1 #vehicle.bicycle --> 2-wheeled
+  15: 8 #vehicle.bus.bendy --> 4-wheeled
+  16: 8 #vehicle.bus.rigid --> 4-wheeled
+  17: 8 #vehicle.car --> 4-wheeled
+  18: 8 #vehicle.construction --> 4-wheeled
+  19: 0 #vehicle.emergency.ambulance --> Noise
+  20: 0 #vehicle.emergency.police --> Noise
+  21: 1 #vehicle.motorcycle --> 2-wheeled
+  22: 8 #vehicle.trailer --> 4-wheeled
+  23: 8 #vehicle.truck --> 4-wheeled
+  24: 3 #flat.driveable_surface --> driveable ground
+  25: 5 #flat.other --> other ground
+  26: 4 #flat.sidewalk --> sidewalk
+  27: 5 #flat.terrain --> other ground
+  28: 6 #static.manmade --> manmade
+  29: 0 #static.other --> Noise
+  30: 7 #static.vegetation --> vegetation
+  31: 0
+
+waymo:
+  0: 0 #noise, animal, human.pedestrian.personal.mobility, ->background/noise
+  1: 0 #noise, animal, human.pedestrian.personal.mobility, ->background/noise
+  2: 6 #human.pedestrian.adult,->Pedestrian
+  3: 6 #human.pedestrian.adult,->Pedestrian
+  4: 6 #human.pedestrian.adult,->Pedestrian
+  5: 0 #noise, animal, human.pedestrian.personal.mobility, ->background/noise
+  6: 6 #human.pedestrian.adult,->Pedestrian
+  7: 0 #noise, animal, human.pedestrian.personal.mobility, ->background/noise
+  8: 0 #noise, animal, human.pedestrian.personal.mobility, ->background/noise
+  9: 0 #barrier->background/noise
+  10: 0 #noise, animal, human.pedestrian.personal.mobility, ->background/noise
+  11: 0 #noise, animal, human.pedestrian.personal.mobility, ->background/noise
+  12: 0 #traffic_cone->background/noise
+  13: 0 #noise, animal, human.pedestrian.personal.mobility, ->background/noise
+  14: 2 #vehicle.bicycle->Bicycle
+  15: 5 #vehicle.bus.bendy->Other-Vehicle
+  16: 5 #vehicle.bus.bendy->Other-Vehicle
+  17: 1 #vehicle.car->Car
+  18: 5 #vehicle.construction,->Other-Vehicle
+  19: 0 #noise, animal, human.pedestrian.personal.mobility, ->background/noise
+  20: 0 #noise, animal, human.pedestrian.personal.mobility, ->background/noise
+  21: 3 #vehicle.motorcycle->Motorcycle
+  22: 5 #vehicle.trailer->Other-Vehicle
+  23: 4 #vehicle.truck->Truck
+  24: 7 #flat.driveable surface->Driveable-surface
+  25: 0 #other_flat->background/noise
+  26: 8 #flat.sidewalk->Sidewalk
+  27: 9 #flat.terrain->Walkable
+  28: 0 #manmade->background/noise
+  29: 0 #noise, animal, human.pedestrian.personal.mobility, ->background/noise
+  30: 10 #static.vegetation->Vegetation
+  31: 0 #noise, animal, human.pedestrian.personal.mobility, ->background/noise
+
+ambiguity_test:
+  0: 0
+  1: 0
+  2: 6
+  3: 6
+  4: 6
+  ###Changes 
+  5: 6 #Prev 0
+  6: 6
+  7: 0
+  8: 0
+  9: 0
+  10: 0
+  11: 0
+  12: 0
+  13: 0
+  14: 2
+  15: 5
+  #Changed class mapping to be amibous
+  16: 1
+  17: 1
+  18: 5
+  19: 5 #Prev 0
+  20: 5 #Prev 0
+  21: 3
+  22: 5
+  23: 4
+  24: 7
+  25: 0
+  26: 8
+  27: 9
+  28: 0
+  29: 0
+  30: 10
+  31: 0

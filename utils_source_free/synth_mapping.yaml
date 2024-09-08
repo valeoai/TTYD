@@ -1,0 +1,140 @@
+single: 
+  0: 0 # unlabeled
+  1: 1 # Car
+  2: 2 #	pick-up 	-->	Truck
+  3: 2 #	truck 	-->	Truck
+  4: 3 #	bus 	-->	Bus
+  5: 4 #	bicycle 	-->	Bicycle
+  6: 5 #	motorcycle 	-->	Motorcycle
+  7: 6 #	other-vehicle 	-->	Other Vehicle
+  8: 7 #	road,	-->	Road
+  9: 8 #	sidewalk 	-->	Sidewalk
+  10: 9 #	parking 	-->	Parking
+  11: 10 #	other-ground 	-->	Other ground 
+  12: 11 #	female 	-->	Person
+  13: 11 #	male 	-->	Person
+  14: 11 #	kid 	-->	Person
+  15: 11 #	crowd   # multiple person that are very close	-->	Person
+  16: 12 #	bicyclist 	-->	Bicyclist
+  17: 13 #	motorcyclist 	-->	Motorcyclist
+  18: 14 #	building 	-->	Building
+  19: 0 #	other-structure 	-->	Unlabeled
+  20: 15 #	vegetation 	-->	Vegetation
+  21: 16 #	trunk 	-->	Trunk
+  22: 17 #	terrain 	-->	Terrain
+  23: 18 #	traffic-sign 	-->	Traffic-Sign
+  24: 19 #	pole 	-->	Pole
+  25: 20 #	traffic-cone 	-->	Traffic-Cone
+  26: 21 #	fence 	-->	Fence
+  27: 22 #	garbage-can 	-->	Garbage Can
+  28: 0 #	electric-box 	-->	Unlabeled
+  29: 0 #	table 	-->	Unlabeled
+  30: 0 #	chair 	-->	Unlabeled
+  31: 0 #	bench 	-->	Unlabeled
+  32: 0 #other-object	-->	Unlabeled
+
+semantic_kitti: 
+  0: 0  # "unlabeled"
+  1: 1   # "car"
+  2: 4   # "pick-up"
+  3: 4   # "truck"
+  4: 5   # "bus"
+  5: 2   # "bicycle"
+  6: 3   # "motorcycle"
+  7: 5   # "other-vehicle"
+  8: 9   # "road"
+  9: 11   # "sidewalk"
+  10: 10   # "parking"
+  11: 12   # "other-ground"
+  12: 6  # "female"
+  13: 6   # "male"
+  14: 6   # "kid"
+  15: 6   # "crowd"
+  16: 7   # "bicyclist"
+  17: 8   # "motorcyclist"
+  18: 13   # "building"
+  19: 0   # "other-structure"
+  20: 15   # "vegetation"
+  21: 16   # "trunk"
+  22: 17   # "terrain"
+  23: 19   # "traffic-sign"
+  24: 18   # "pole"
+  25: 0   # "traffic-cone"
+  26: 14   # "fence"
+  27: 0   # "garbage-can"
+  28: 0   # "electric-box"
+  29: 0   # "table"
+  30: 0   # "chair"
+  31: 0   # "bench"
+  32: 0  # "other-object"
+
+semantic_poss:
+  0: 0   # "unlabeled"
+  1: 3   # "car"
+  2: 0   # "pick-up"
+  3: 0   # "truck"
+  4: 0   # "bus"
+  5: 12   # "bicycle"
+  6: 0   # "motorcycle"
+  7: 0   # "other-vehicle"
+  8: 13   # "road"
+  9: 0   # "sidewalk"
+  10: 0   # "parking"
+  11: 0   # "other-ground"
+  12: 1   # "female"
+  13: 1   # "male"
+  14: 1   # "kid"
+  15: 1   # "crowd"
+  16: 2   # "bicyclist"
+  17: 2   # "motorcyclist"
+  18: 9   # "building"
+  19: 0   # "other-structure"
+  20: 5   # "vegetation"
+  21: 4   # "trunk"
+  22: 0   # "terrain"
+  23: 6   # "traffic-sign"
+  24: 7   # "pole"
+  25: 10   # "traffic-cone"
+  26: 11   # "fence"
+  27: 8   # "garbage-can"
+  28: 0   # "electric-box"
+  29: 0   # "table"
+  30: 0   # "chair"
+  31: 0   # "bench"
+  32: 0  # "other-object"
+
+ambiguity_test: 
+  0: 0 #	unlabeled 	-->	Unlabeled
+  1: 1 #	car 	-->	Car 
+  2: 2 #	pick-up 	-->	Truck
+  3: 2 #	truck 	-->	Truck
+  4: 3 #	bus 	-->	Bus
+  5: 4 #	bicycle 	-->	Bicycle
+  6: 5 #	motorcycle 	-->	Motorcycle
+  7: 6 #	other-vehicle 	-->	Other Vehicle
+  8: 7 #	road,	-->	Road
+  9: 8 #	sidewalk 	-->	Sidewalk
+  10: 9 #	parking 	-->	Parking
+  11: 10 #	other-ground 	-->	Other ground 
+  12: 11 #	female 	-->	Person
+  13: 11 #	male 	-->	Person
+  # This changed mapping should trigger the ambiguity 
+  14: 12 #	kid 	-->	Person
+  15: 12 #	crowd   # multiple person that are very close	-->	Person
+  16: 12 #	bicyclist 	-->	Bicyclist
+  17: 13 #	motorcyclist 	-->	Motorcyclist
+  18: 14 #	building 	-->	Building
+  19: 0 #	other-structure 	-->	Unlabeled
+  20: 15 #	vegetation 	-->	Vegetation
+  21: 16 #	trunk 	-->	Trunk
+  22: 17 #	terrain 	-->	Terrain
+  23: 18 #	traffic-sign 	-->	Traffic-Sign
+  24: 19 #	pole 	-->	Pole
+  25: 20 #	traffic-cone 	-->	Traffic-Cone
+  26: 21 #	fence 	-->	Fence
+  27: 22 #	garbage-can 	-->	Garbage Can
+  28: 0 #	electric-box 	-->	Unlabeled
+  29: 0 #	table 	-->	Unlabeled
+  30: 0 #	chair 	-->	Unlabeled
+  31: 0 #	bench 	-->	Unlabeled
+  32: 0 #other-object	-->	Unlabeled
