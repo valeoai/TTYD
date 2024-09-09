@@ -18,7 +18,7 @@
 
 <br/>
 
-[![Arxiv](https://img.shields.io/badge/paper-arxiv.2409.03251-B31B1B.svg)](https://arxiv.org/abs/)
+[![Arxiv](https://img.shields.io/badge/paper-arxiv.2409.04409-B31B1B.svg)](https://arxiv.org/abs/2409.04409)
 
 Accepted at ECCV 2024
 </div>
