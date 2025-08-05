@@ -81,7 +81,7 @@ We explain it for nuScenes to SemanticKITTI. For other combinations, please chan
 
 ## 🔄 Self-Training 
 
-``python train_ttyd_st.py --name="TTYD_self_training_ns_sk"  --bn_layer="scaling_per_channel" --resume_path='model_zoo/TTYD_Core/TTYD_Core_before_selection_ns_sk/model_4000.pth' --setting='NS2SK' --finetune=True --tensorboard_folder='TTYD_ST' --fintune_setting='complete_finetune' --pl_no_mapping=True --fintune_setting='classic' --lr_scheduler=True --learning_rate=0.0025`` 
+``python train_ttyd_st.py --name="TTYD_self_training_ns_sk"  --bn_layer="scaling_per_channel" --resume_path='model_zoo/TTYD_Core/TTYD_Core_before_selection_ns_sk/model_4000.pth' --setting='NS2SK' --finetune=True --tensorboard_folder='TTYD_ST' -- --pl_no_mapping=True --fintune_setting='classic' --lr_scheduler=True --learning_rate=0.0025`` 
 
 
 # 🐘 Model Zoo
